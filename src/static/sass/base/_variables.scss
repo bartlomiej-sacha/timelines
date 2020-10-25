@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-Regular.ttf') format('woff2');
+}
+$color-first: #fda405;
+$color-second: #16b3b0;
+$color-third: #0270b7;
+
+$font-roboto: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$main-spacing: 24px;
+
+$breakpoints: (
+  xss: 0px,
+  xs: 500px,
+  sm: 880px,
+  md: 1000px,
+  lg: 1205px,
+  xl: 1600px,
+);
